@@ -8,6 +8,12 @@ h1 {
     text-align: center;
 }
 
+div p {
+    font-size: 4.2em;
+    text-align: right;
+}
+
+
 
 .container {
     display: grid;
@@ -43,6 +49,7 @@ h1 {
     grid-column-end: 3;
     grid-row-end: 3;
     grid-row-start: 3;
+    background-color: rgb(144, 144, 239);
 
 }
 
@@ -51,6 +58,7 @@ h1 {
     grid-column-end: 5;
     grid-row-end: 3;
     grid-row-start: 3;
+    background-color: red;
 }
 
 .one {
@@ -82,6 +90,7 @@ h1 {
     grid-column-end: 4;
     grid-row-end: 6;
     grid-row-start: 6;
+    background-color: rgb(170, 170, 170);
 }
 
 .four {
@@ -111,6 +120,7 @@ h1 {
     grid-column-end: 4;
     grid-row-end: 5;
     grid-row-start: 5;
+    background-color: rgb(170, 170, 170);
 }
 .seven {
     grid-column-start: 1;
@@ -138,6 +148,7 @@ h1 {
     grid-column-end: 4;
     grid-row-end: 4;
     grid-row-start: 4;
+    background-color: rgb(170, 170, 170);
 }
 
 .dot {
@@ -159,6 +170,7 @@ h1 {
     grid-column-end: 3;
     grid-row-end: 7;
     grid-row-start: 7;
+    background-color: green;
 }
 
 .plus {
@@ -166,6 +178,7 @@ h1 {
     grid-column-end: 4;
     grid-row-end: 7;
     grid-row-start: 7;
+    background-color: rgb(170, 170, 170);
 }
 
 button {
